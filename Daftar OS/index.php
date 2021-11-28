@@ -122,7 +122,7 @@ $system_operation = [
 	<ul>
 	<?php foreach( $os["requirements"] as $r ) : ?> 
 	  <li><?= $r; ?></li> 
-	<? endforeach; ?>
+	<?php endforeach; ?>
 	</ul>
 	</td>
       </tr>
